@@ -23,6 +23,8 @@
  * along with this program. If not, see <http://www.gnu.org/licenses/>.
  */
 
+require __DIR__ . '/vendor/autoload.php';
+
 class calendar extends rcube_plugin
 {
     const FREEBUSY_UNKNOWN   = 0;
